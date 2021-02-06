@@ -1,0 +1,31 @@
+{
+  "name": "soulmate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "./node_modules/.bin/babel",
+    "babel-node": "./node_modules/.bin/babel-node",
+    "start": "nodemon ./node_modules/.bin/babel-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuErman/soulmate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuErman/soulmate/issues"
+  },
+  "homepage": "https://github.com/MuErman/soulmate#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "nodemon": "^2.0.7",
+    "requirejs": "^2.3.6"
+  }
+}
